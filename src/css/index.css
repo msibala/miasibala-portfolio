@@ -242,7 +242,7 @@ pre[class*='language-'] {
 }
 
 .language-text {
-  background: rgb(237, 242, 247) !important;
+  background: rgb(000, 242, 247) !important;
   border-radius: 0 !important;
   color: rgb(74, 85, 104) !important;
   font-size: 12px !important;
