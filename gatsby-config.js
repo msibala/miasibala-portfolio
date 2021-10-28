@@ -10,49 +10,23 @@ module.exports = {
     description: `Full-Stack Developer based in Los Angeles, California`,
     // Optional: Twitter account handle
     author: `@miasibala`,
-    // Optional: Github account URL
     github: `https://github.com/msibala`,
-    // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/miasibala/`,
     // Content of the About Me section
-    about: `Curious full-stack engineer experienced in building websites with Django, Python, Javascipt, HTML & CSS.`,
+    about: `Curious full-stack engineer experienced in building websites with Django, Python, Javascript, HTML & CSS.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Junglebook --> Baby Club',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A digital community for expecting and new parents. Built using Django, Python, Javascript, CSS, HTML',
+        link: 'https://github.com/msibala/junglebook_project',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'MARU',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
-    // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Emulated a small business coffee shop, maru.com. Built using Django, Python, Javascript, CSS, HTML',
+        link: 'https://github.com/msibala/maru',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +34,11 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript, Python, Django, Flask, HTML, CSS',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        description: 'MySQL', "SQLite,
       },
     ],
   },
