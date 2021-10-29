@@ -1,7 +1,7 @@
 ---
-title: My First Blog Post
+title: DJANGOOO
 date: '2021-10-20T12:00:00.00Z'
-description: 'DJANGOOOOO'
+description: 'My first blog post on Django. My favorite framework, the movie wasn't so bad either'
 ---
 
 I have been working with Django for a few months now and I’ve grown to appreciate this framework compared to Flask. While setting up Django used to take me a few days, now it takes me a few minutes. 
