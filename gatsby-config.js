@@ -38,7 +38,7 @@ module.exports = {
       },
       {
         name: 'Databases',
-        description: 'MySQL', "SQLite,
+        description: 'MySQL'
       },
     ],
   },
