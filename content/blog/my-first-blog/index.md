@@ -1,12 +1,65 @@
 ---
 title: My First Blog Post
 date: '2020-09-20T12:00:00.00Z'
-description: 'Ducimus perferendis porro cumque ea error ab voluptatem'
+description: 'DJANGOOOOO'
 ---
 
-## Lorem ipsum dolor sit amet consectetur adipisicing elit
+I have been working with Django for a few months now and I’ve grown to appreciate this framework compared to Flask. While setting up Django used to take me a few days, now it takes me a few minutes. 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.
+Moreover, below are the steps to creating a Django Project:
+
+Set up your Django virtual environment
+
+Once the virtual environment is set up you can now move forward with the following:
+
+cd python_stack/django/django_intro
+django_intro> django-admin start project your_project_name_here
+django_intro> cd your_project_name_here
+your_project_name_here> python manage.py runserver
+Open localhost: 8000
+your_project_name_here> python manage.py startapp your_app_name_here
+
+IN settings.py [your_project_name_here/your_project_name_here/settings.py]
+
+INSTALLED_APPS = [
+       'your_app_name_here', # added this line. Don't forget the comma!!
+       'django.contrib.admin',
+       'django.contrib.auth',
+       'django.contrib.contenttypes',
+       'django.contrib.sessions',
+       'django.contrib.messages',
+       'django.contrib.staticfiles',
+   ]    # the trailing comma after the last item in a list, tuple, or dictionary is commonly accepted in Python
+			
+IN your_project_name_here/your_project_name_here/urls.py
+from django.urls import path, include           # import include
+# from django.contrib import admin              # comment out, or just delete
+urlpatterns = [
+    path('', include('your_app_name_here.urls')),	   
+    # path('admin/', admin.sites.urls)         # comment out, or just delete
+]
+
+your_project_name_here/your_app_name_here/urls.py
+from django.urls import path     
+from . import views
+urlpatterns = [
+    path('', views.index),	   
+]
+And then actually put a function called index in our app's views.py file:
+
+your_project_name_here/your_app_name_here/views.py
+from django.shortcuts import render, HttpResponse
+def index(request):
+    	return HttpResponse("this is the equivalent of @app.route('/')!")
+
+TIME TO RUN THE APP! USING:
+your_project_name_here> python manage.py runserver 
+Place localhost:800/ on your browser!!
+It should look something like the image below. 
+
+If you are still confused, please email me or look into some youtube videos in the meantime:
+https://www.youtube.com/watch?v=UmljXZIypDc
+
 
 ![Mountain](./mountain.jpg)
 
