@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `miasibala`,
     // Your Name
     name: 'Mia Sibala',
     // Main Site Title
-    title: `Mia Sibala | Full-Stack Developer`,
+    title: `Work In Progress Portfolio`,
     // Description that goes under your name in main bio
     description: `Full-Stack Developer based in Los Angeles, California`,
     // Optional: Twitter account handle
