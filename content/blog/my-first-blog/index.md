@@ -8,15 +8,16 @@ I have been working with Django for a few months now and I’ve grown to appreci
 
 Moreover, below are the steps to creating a Django Project:
 
-Set up your Django virtual environment
-
-Once the virtual environment is set up you can now move forward with the following:
-
-cd python_stack/django/django_intro
+<p>cd python_stack/django/django_intro<p>
+<br>
 django_intro> django-admin start project your_project_name_here
+<br>
 django_intro> cd your_project_name_here
+<br>
 your_project_name_here> python manage.py runserver
+<br>
 Open localhost: 8000
+<br>
 your_project_name_here> python manage.py startapp your_app_name_here
 
 IN settings.py [your_project_name_here/your_project_name_here/settings.py]
@@ -30,7 +31,7 @@ INSTALLED_APPS = [
        'django.contrib.messages',
        'django.contrib.staticfiles',
    ]    # the trailing comma after the last item in a list, tuple, or dictionary is commonly accepted in Python
-			
+<br>			
 IN your_project_name_here/your_project_name_here/urls.py
 from django.urls import path, include           # import include
 # from django.contrib import admin              # comment out, or just delete
@@ -51,7 +52,7 @@ your_project_name_here/your_app_name_here/views.py
 from django.shortcuts import render, HttpResponse
 def index(request):
     	return HttpResponse("this is the equivalent of @app.route('/')!")
-
+	
 TIME TO RUN THE APP! USING:
 your_project_name_here> python manage.py runserver 
 Place localhost:800/ on your browser!!
@@ -61,7 +62,7 @@ If you are still confused, please email me or look into some youtube videos in t
 https://www.youtube.com/watch?v=UmljXZIypDc
 
 
-![Mountain](./mountain.jpg)
+<!-- ![Mountain](./mountain.jpg) -->
 
 Aliquam aliquid rem facere dolorum consectetur consequatur distinctio [mollitia id modi repellendus](https://github.com/RyanFitzgerald/devfolio) vero quae dolorem commodi soluta voluptates iusto nobis est dolore provident, porro veritatis placeat nemo impedit! Asperiores culpa delectus hic qui saepe, ipsum quia, exercitationem repellendus magni soluta sit suscipit laborum ducimus.
 
@@ -81,17 +82,16 @@ Illum esse recusandae facere ipsam fugiat est eaque ducimus facilis provident, d
 
 ## Voluptatibus accusamus repellendus quas minus
 
-Ipsum quod, ut animi mollitia ipsam repellat, dolore voluptate quibusdam quasi reiciendis necessitatibus odio ea nostrum illo explicabo? Ducimus, in repudiandae. Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat atque aperiam, praesentium eligendi! Sed voluptas voluptatem sunt distinctio pariatur ullam? Laudantium laboriosam.
-
 - Numquam fugiat quibusdam aut ut
 - Soluta necessitatibus deserunt nobis
 - Illum esse recusandae facere ipsam
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus.
 
-1. Numquam fugiat quibusdam aut ut
-2. Soluta necessitatibus deserunt nobis
-3. Illum esse recusandae facere ipsam
+1. Set up your Django virtual environment
+2. Once the virtual environment is set up you can now move forward with the following:
+3. cd python_stack/django/django_intro
+4. django_intro> django-admin start project your_project_name_here
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.
 
