@@ -17,7 +17,7 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Junglebook --> Baby Club',
+        name: 'Baby Club',
         description:
           'A digital community for expecting and new parents. Built using Django, Python, Javascript, CSS, HTML',
         link: 'https://github.com/msibala/junglebook_project',
