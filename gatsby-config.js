@@ -34,7 +34,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript, Python, Django, Flask, HTML, CSS',
+          'JavaScript, Python, Django, Flask, Gatsby, HTML, CSS',
       },
       {
         name: 'Databases',
