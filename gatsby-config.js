@@ -13,7 +13,7 @@ module.exports = {
     github: `https://github.com/msibala`,
     linkedin: `https://www.linkedin.com/in/miasibala/`,
     // Content of the About Me section
-    about: `Curious full-stack engineer experienced in building websites with Django, Python, Javascript, HTML & CSS.`,
+    about: `Testing one two Curious full-stack engineer experienced in building websites with Django, Python, Javascript, HTML & CSS.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
