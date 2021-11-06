@@ -25,7 +25,7 @@ module.exports = {
       {
         name: 'MARU',
         description:
-          'Emulated a small business coffee shop, maru.com. Built using Django, Python, Javascript, CSS, HTML',
+          'Emulated a Los Angeles based small business coffee shop, maru.com. Built using Django, Python, Javascript, CSS, HTML',
         link: 'https://github.com/msibala/maru',
       },
     ],
