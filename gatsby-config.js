@@ -10,6 +10,7 @@ module.exports = {
     description: `Full-Stack Developer based in Los Angeles, California`,
     // Optional: Twitter account handle
     author: `@miasibala`,
+    email: `sibalamia@gmail.com`,
     github: `https://github.com/msibala`,
     linkedin: `https://www.linkedin.com/in/miasibala/`,
     // Content of the About Me section
