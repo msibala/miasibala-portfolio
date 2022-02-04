@@ -6,6 +6,8 @@ description: 'Documenting the past 50/238 days of coding'
 
 ## Sometimes I don't know where to start but then I remember that starting will lead to a domino effect of positive results.
 
+work in progress blog. test.
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.
 
 ![Mountain](./mountain.jpg)
