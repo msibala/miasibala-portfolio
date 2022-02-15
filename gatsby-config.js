@@ -21,13 +21,14 @@ module.exports = {
       {
         name: 'Sweet Treats',
         description:
-          'A web application to identify real time inventory of artisan ice cream shops thus saving time of commuting. Utilized HTML, CSS, Javscript, Node.js, Python, Django. Responsible for creating the database using SQLite and reformatting folder structure on Github. ',
+          'Built in less than a week for Pathlight Hackathon. The purpose of this web application to identify real time inventory of artisan ice cream shops thus saving time from commuting. Ice cream is my guilty pleasure, sometimes I would visit one of my favorite ice cream shops only to find out they do not have the particular flavor I wanted. <br>
+ 'Responsible for creating the database using SQLite and reformatting folder structure on Github. Overall, utilized HTML, CSS, Javscript, Node.js, Python, Django. ',
         link: 'https://pure-caverns-71325.herokuapp.com/',
       },
       {
         name: 'MARU',
         description:
-          'Emulated a Los Angeles based small business coffee shop, maru.com. Built using Django, Python, Javascript, CSS, HTML',
+          ' Built in one month. Emulated a Los Angeles based small business coffee shop, maru.com. Built using HTML, CSS, Javascript, Python, Django. This project helped me refine my CSS skills learning CSS tricks like animation, sticky etc.',
         link: 'https://github.com/msibala/maru',
       },
     ],
