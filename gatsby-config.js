@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Mia Sibala',
     // Main Site Title
-    title: `Work In Progress Portfolio`,
+    title: `Mia Sibala Portfolio`,
     // Description that goes under your name in main bio
     description: `Full-Stack Developer based in Los Angeles, California`,
     // Optional: Twitter account handle
@@ -13,15 +13,16 @@ module.exports = {
     email: `sibalamia@gmail.com`,
     github: `https://github.com/msibala`,
     linkedin: `https://www.linkedin.com/in/miasibala/`,
+   
     // Content of the About Me section
-    about: `Curious full-stack engineer experienced in building websites with Django, Python, Javascript, HTML & CSS.`,
+    about: `I'm a full-stack web developer passionate about making ideas come to life and learning from other code bases to continuously refine my skills. I have been building projects mainly in Python, Django and some Javascript since July 2021. I recently participated in a Hackathon in January 2022. I also founded the women who code besties community so women in tech have a safe space to chat about networking,coding blocks, fitness etc. Previous experience: Financial, Business and Marketing Analysis at ROW8, Deluxe, IMAX, Paramount Pictures.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Baby Club',
+        name: 'Sweet Treats',
         description:
-          'A digital community for expecting and new parents. Built using Django, Python, Javascript, CSS, HTML',
-        link: 'https://github.com/msibala/junglebook_project',
+          'A web application to identify real time inventory of artisan ice cream shops thus saving time of commuting. Utilized HTML, CSS, Javscript, Node.js, Python, Django. Responsible for creating the database using SQLite and reformatting folder structure on Github. ',
+        link: 'https://pure-caverns-71325.herokuapp.com/',
       },
       {
         name: 'MARU',
