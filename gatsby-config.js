@@ -21,8 +21,7 @@ module.exports = {
       {
         name: 'Sweet Treats',
         description:
-          'Built in less than a week for Pathlight Hackathon. The purpose of this web application to identify real time inventory of artisan ice cream shops thus saving time from commuting. Ice cream is my guilty pleasure, sometimes I would visit one of my favorite ice cream shops only to find out they do not have the particular flavor I wanted. <br>
- 'Responsible for creating the database using SQLite and reformatting folder structure on Github. Overall, utilized HTML, CSS, Javscript, Node.js, Python, Django. ',
+          'Built in less than a week for Pathlight Hackathon. The purpose of this web application to identify real time inventory of artisan ice cream shops thus saving time from commuting. Ice cream is my guilty pleasure, sometimes I would visit one of my favorite ice cream shops only to find out they do not have the particular flavor I wanted. Responsible for creating the database using SQLite and reformatting folder structure on Github. Overall, utilized HTML, CSS, Javscript, Node.js, Python, Django. ',
         link: 'https://pure-caverns-71325.herokuapp.com/',
       },
       {
