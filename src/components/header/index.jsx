@@ -34,11 +34,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           <Link to="/">{metadata.name}</Link>
         </h1>
         <p className={classes.description}>{metadata.description}</p>
-{/*         <ul className={classes.list}>
-          {twitter && (
-            <li className={classes.item}>
-            </li> */}
-          )}
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
