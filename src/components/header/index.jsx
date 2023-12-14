@@ -66,7 +66,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             </li>
           )}
         </ul>
-      </div>
+      }</div>
     </div>
   );
 };
