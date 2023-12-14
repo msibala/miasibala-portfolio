@@ -11,6 +11,7 @@ module.exports = {
     // Optional: Twitter account handle
     author: `@miasibala`,
     email: `sibalamia@gmail.com`,
+    twitter: `https://www.twitter.com/mia__bala`
     github: `https://github.com/msibala`,
     linkedin: `https://www.linkedin.com/in/miasibala/`,
    
