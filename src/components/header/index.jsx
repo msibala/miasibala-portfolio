@@ -37,7 +37,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
          {        <ul className={classes.list}>
           {twitter && (
             <li className={classes.item}>
-            </li> }
+            </li> 
           )}
         {github && (
             <li className={classes.item}>
