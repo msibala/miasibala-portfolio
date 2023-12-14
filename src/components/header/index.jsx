@@ -34,12 +34,18 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           <Link to="/">{metadata.name}</Link>
         </h1>
         <p className={classes.description}>{metadata.description}</p>
-         {        <ul className={classes.list}>
+        <ul className={classes.list}>
           {twitter && (
             <li className={classes.item}>
-            </li> 
+              <a
+                className={classes.link}
+                href={`https://twitter.com/${twitter}`}
+              >
+                Twitter
+              </a>
+            </li>
           )}
-        {github && (
+          {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
                 GitHub
@@ -52,12 +58,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
                 LinkedIn
               </a>
             </li>
-          )} 
-            <li className={classes.item}>
-              <a className={classes.link} href="mailto:sibalamia@gmail.com">
-                Email
-              </a>
-            </li>
+          )}
           {!noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
@@ -66,7 +67,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             </li>
           )}
         </ul>
-      }</div>
+      </div>
     </div>
   );
 };
